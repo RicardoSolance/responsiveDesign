@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  color: white;
+}
+
+.contenedor {
+  width: 95%;
+  height: auto;
+  margin: 2%;
+  background-color: yellow;
+}
+
+header {
+  background-color: rgb(109, 109, 255);
+  width: 95%;
+  margin: 2%;
+}
+#rojo {
+  background-color: rgb(247, 53, 53);
+  width: 95%;
+  margin: 0% 2%;
+}
+#principal {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  background-color: rgb(24, 177, 24);
+  margin: 0% 0% 2% 0%;
+}
+aside {
+  background-color: rgb(101, 24, 177);
+  margin: 0% 0% 2% 0%;
+}
+footer {
+  background-color: rgb(95, 95, 95);
+  width: 95%;
+  margin: 0% 2%;
+}
